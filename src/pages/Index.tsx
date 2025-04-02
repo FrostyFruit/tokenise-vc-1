@@ -11,7 +11,7 @@ import Footer from '../components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="bg-gradient-to-b from-tokenise-purple to-blue-300">
+      <div className="bg-gradient-to-b from-tokenise-hero-purple to-tokenise-hero-light">
         <Navbar />
         <VideoSection />
       </div>

@@ -68,6 +68,8 @@ export default {
 					'light-purple': '#c9bee7',
 					'dark-purple': '#8461d5',
 					background: '#f8f9fa',
+					'hero-purple': '#aa93eb', // New color based on the image
+					'hero-light': '#c8bcf0', // New color for gradient end
 				}
 			},
 			borderRadius: {
