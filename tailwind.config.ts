@@ -64,11 +64,13 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				tokenise: {
-					purple: '#9b7ede',
-					'light-purple': '#c9bee7',
-					'dark-purple': '#8461d5',
-					'deep-purple': '#6b46c1',
-					black: '#1A1F2C',
+					purple: '#9b87f5',
+					'deep-purple': '#7E69AB',
+					'dark-purple': '#6E59A5',
+					'light-purple': '#D6BCFA',
+					'bright-purple': '#8B5CF6',
+					'deep-blue': '#2D3748',
+					black: '#0F172A',
 					background: '#f8f9fa',
 					'hero-purple': '#aa93eb',
 					'hero-light': '#c8bcf0',

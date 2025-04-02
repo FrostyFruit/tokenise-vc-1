@@ -22,21 +22,21 @@ const WhySection: React.FC = () => {
             <div className="space-y-6 max-w-2xl mx-auto text-center py-2">
               <div className="flex items-center justify-center gap-3">
                 <span className="text-red-500 text-2xl font-bold">✕</span>
-                <span className="text-gray-700 text-lg">Outdated spreadsheets <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Institutional models</span></span></span>
+                <span className="text-tokenise-deep-blue text-lg">Outdated spreadsheets <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Institutional models</span></span></span>
               </div>
               
               <div className="flex items-center justify-center gap-3">
                 <span className="text-red-500 text-2xl font-bold">✕</span>
-                <span className="text-gray-700 text-lg">Weeks of revisions <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Launch-ready in hours</span></span></span>
+                <span className="text-tokenise-deep-blue text-lg">Weeks of revisions <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Launch-ready in hours</span></span></span>
               </div>
               
               <div className="flex items-center justify-center gap-3">
                 <span className="text-red-500 text-2xl font-bold">✕</span>
-                <span className="text-gray-700 text-lg">Price collapse <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Simulated long-term sustainability</span></span></span>
+                <span className="text-tokenise-deep-blue text-lg">Price collapse <span className="text-green-600 font-medium">→ <span className="inline-flex items-center"><span className="bg-green-500 text-white rounded-md w-5 h-5 inline-flex justify-center items-center mr-1">✓</span> Simulated long-term sustainability</span></span></span>
               </div>
             </div>
             
-            <div className="mt-12 py-8 px-6 bg-tokenise-gradient rounded-xl text-center mx-auto max-w-2xl text-tokenise-black">
+            <div className="mt-12 py-8 px-6 bg-gradient-to-br from-tokenise-purple to-tokenise-deep-purple rounded-xl text-center mx-auto max-w-2xl text-white">
               <h4 className="text-xl font-bold mb-4">You only get one shot at your TGE.</h4>
               <p className="mb-4">
                 While 94% of founders saw why their token failed, you'll be focused on your actual product and expanding to new chains.
