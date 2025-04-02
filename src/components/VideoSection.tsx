@@ -58,6 +58,21 @@ const VideoSection: React.FC = () => {
           >
             <Link to="/book">Book a Free Strategy Session</Link>
           </Button>
+          
+          <p className="text-tokenise-deep-purple font-bold italic mt-6 mb-4 animate-fade-in" style={{ animationDelay: "0.6s" }}>
+            Don't believe us? Try it out.
+          </p>
+          
+          <Button 
+            size="lg" 
+            className="bg-white hover:bg-gray-100 text-tokenise-purple border border-tokenise-purple rounded-full py-6 px-10 text-base font-medium animate-fade-in"
+            asChild
+            style={{ animationDelay: "0.7s" }}
+          >
+            <Link to="https://app.tokenise.io" target="_blank" rel="noopener noreferrer">
+              Launch Tokenise
+            </Link>
+          </Button>
         </div>
       </div>
     </section>
