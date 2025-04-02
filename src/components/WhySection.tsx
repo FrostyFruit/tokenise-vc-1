@@ -36,7 +36,7 @@ const WhySection: React.FC = () => {
               </div>
             </div>
             
-            <div className="mt-12 py-8 px-6 bg-tokenise-light-purple rounded-xl text-center mx-auto max-w-2xl text-tokenise-black">
+            <div className="mt-12 py-8 px-6 bg-tokenise-gradient rounded-xl text-center mx-auto max-w-2xl text-tokenise-black">
               <h4 className="text-xl font-bold mb-4">You only get one shot at your TGE.</h4>
               <p className="mb-4">
                 While 94% of founders saw why their token failed, you'll be focused on your actual product and expanding to new chains.
