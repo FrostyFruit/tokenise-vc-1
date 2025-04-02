@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { AspectRatio } from './ui/aspect-ratio';
 
 interface Testimonial {
   quote: string;
@@ -54,10 +55,10 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   const partners = [
-    "VentureDAO",
-    "TechFund",
-    "BlockVentures",
-    "CryptoAlliance",
+    { name: "VentureDAO", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=300&h=200&fit=crop&auto=format" },
+    { name: "TechFund", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=200&fit=crop&auto=format" },
+    { name: "BlockVentures", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop&auto=format" },
+    { name: "CryptoAlliance", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=300&h=200&fit=crop&auto=format" },
   ];
 
   return (
@@ -65,10 +66,21 @@ const TestimonialsSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Trusted by Industry Leaders</h2>
         
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
           {partners.map((partner, index) => (
-            <div key={index} className="bg-gray-100 rounded-lg py-4 px-6 text-center">
-              <p className="font-medium text-gray-800">{partner}</p>
+            <div key={index} className="bg-gray-50 rounded-lg overflow-hidden shadow-sm border border-gray-200">
+              <div className="h-32 relative">
+                <AspectRatio ratio={16/9} className="w-full h-full">
+                  <img 
+                    src={partner.image} 
+                    alt={`${partner.name} logo`} 
+                    className="w-full h-full object-cover"
+                  />
+                </AspectRatio>
+              </div>
+              <div className="py-4 px-6 text-center">
+                <p className="font-medium text-tokenise-deep-blue">{partner.name}</p>
+              </div>
             </div>
           ))}
         </div>
