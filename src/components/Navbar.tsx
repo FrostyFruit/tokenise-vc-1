@@ -1,15 +1,19 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Logo from './Logo';
 import { Button } from './ui/button';
 
 const Navbar: React.FC = () => {
   return (
     <nav className="py-6 px-6 md:px-12 flex justify-between items-center">
       <div className="flex items-center">
-        <div className="bg-purple-800 text-white font-bold w-8 h-8 flex items-center justify-center rounded mr-2">TF</div>
-        <span className="font-bold text-black tracking-wide">TOKENISE</span>
+        <Link to="/" className="flex items-center">
+          <img 
+            src="/public/lovable-uploads/62e2f33c-ee03-40dd-b7da-02ba0d889a63.png" 
+            alt="Tokenise Logo" 
+            className="h-10 md:h-12"
+          />
+        </Link>
       </div>
 
       <div className="hidden md:flex items-center space-x-8">
