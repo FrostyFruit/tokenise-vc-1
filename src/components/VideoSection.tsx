@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const VideoSection: React.FC = () => {
   return (
-    <section className="bg-tokenise-purple py-16 md:py-24 px-6 md:px-12 flex flex-col items-center">
+    <section className="bg-gradient-to-b from-tokenise-purple to-blue-300 py-16 md:py-24 px-6 md:px-12 flex flex-col items-center">
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-4 text-black max-w-3xl">
         Welcome to Tokenise.
       </h1>
