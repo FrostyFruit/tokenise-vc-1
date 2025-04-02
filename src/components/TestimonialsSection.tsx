@@ -55,7 +55,7 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   const partners = [
-    { name: "VentureDAO", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=300&h=200&fit=crop&auto=format" },
+    { name: "Digital Assets Oasis", image: "/lovable-uploads/8ecaabfd-736a-49f2-a40d-1b4174b3b2d1.png" },
     { name: "TechFund", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=200&fit=crop&auto=format" },
     { name: "BlockVentures", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop&auto=format" },
     { name: "CryptoAlliance", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=300&h=200&fit=crop&auto=format" },
@@ -74,7 +74,7 @@ const TestimonialsSection: React.FC = () => {
                   <img 
                     src={partner.image} 
                     alt={`${partner.name} logo`} 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-4"
                   />
                 </AspectRatio>
               </div>
