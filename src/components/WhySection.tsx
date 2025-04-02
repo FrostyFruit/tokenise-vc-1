@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { Code, X, Check } from 'lucide-react';
+import { AspectRatio } from './ui/aspect-ratio';
 
 const WhySection: React.FC = () => {
   return (
@@ -13,6 +14,17 @@ const WhySection: React.FC = () => {
             <div className="mb-6 flex justify-center items-center">
               <h3 className="text-2xl font-bold text-tokenise-black">Built by founders, for founders.</h3>
               <Code size={32} className="text-tokenise-purple ml-3" />
+            </div>
+            
+            {/* Brand photos image box */}
+            <div className="w-full max-w-2xl mx-auto mb-8 rounded-lg overflow-hidden border border-gray-200 shadow-md">
+              <AspectRatio ratio={16 / 9}>
+                <img 
+                  src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                  alt="Brand showcase" 
+                  className="w-full h-full object-cover"
+                />
+              </AspectRatio>
             </div>
             
             <p className="text-lg italic text-tokenise-deep-purple/90 mb-8 border-l-4 border-tokenise-purple pl-4 text-left mx-auto max-w-2xl">
