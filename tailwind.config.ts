@@ -98,12 +98,59 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+				"fade-in": {
+					"0%": {
+						opacity: "0",
+						transform: "translateY(10px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateY(0)",
+					},
+				},
+				"fade-in-right": {
+					"0%": {
+						opacity: "0",
+						transform: "translateX(10px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateX(0)",
+					},
+				},
+				"fade-in-left": {
+					"0%": {
+						opacity: "0",
+						transform: "translateX(-10px)",
+					},
+					"100%": {
+						opacity: "1",
+						transform: "translateX(0)",
+					},
+				},
+				"pulse-soft": {
+					"0%, 100%": {
+						opacity: "1",
+					},
+					"50%": {
+						opacity: "0.8",
+					},
+				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				"fade-in": "fade-in 0.5s ease-out",
+				"fade-in-right": "fade-in-right 0.5s ease-out",
+				"fade-in-left": "fade-in-left 0.5s ease-out",
+				"pulse-soft": "pulse-soft 3s infinite ease-in-out",
+			},
+			backgroundImage: {
+				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+				'tokenise-gradient': 'linear-gradient(135deg, #9b87f5 0%, #D6BCFA 50%, #FFFFFF 100%)',
+				'grid-pattern': "url('/public/lovable-uploads/ab352fe6-c2ab-476f-8be4-b9af1f3b5070.png')",
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
