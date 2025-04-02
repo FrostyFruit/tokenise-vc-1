@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -67,12 +68,7 @@ export default {
 					'light-purple': '#c9bee7',
 					'dark-purple': '#8461d5',
 					background: '#f8f9fa',
-					'ice-blue': '#a8d0e6',
 				}
-			},
-			backgroundImage: {
-				'gradient-tech': 'linear-gradient(to bottom, #9b7ede, #a8d0e6)',
-				'grid-overlay': "url(\"data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h100v100H0z' fill='none'/%3E%3Cpath d='M0 0v100h100V0H0zm1 1h98v98H1V1zm9 9v80h80V10H10zm1 1h78v78H11V11z' fill='rgba(255,255,255,0.1)'/%3E%3Cpath d='M10 10h80v80H10V10zm20 0v80M50 10v80M70 10v80M10 30h80M10 50h80M10 70h80' stroke='rgba(255,255,255,0.05)' fill='none'/%3E%3C/svg%3E\")",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
