@@ -10,20 +10,23 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col">
-      <div className="bg-tokenise-purple">
+    <div className="min-h-screen flex flex-col relative">
+      {/* Grid overlay background that spans full page */}
+      <div className="fixed inset-0 bg-gradient-tech bg-grid-overlay bg-100 z-0 pointer-events-none"></div>
+      
+      <div className="relative z-10">
         <Navbar />
         <VideoSection />
       </div>
       
-      <main>
+      <main className="relative z-10">
         <CalendlySection />
         <WhySection />
         <TestimonialsSection />
         <CTASection />
       </main>
       
-      <Footer />
+      <Footer className="relative z-10" />
     </div>
   );
 };
