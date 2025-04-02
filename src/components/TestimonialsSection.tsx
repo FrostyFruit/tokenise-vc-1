@@ -48,9 +48,9 @@ const TestimonialsSection: React.FC = () => {
     },
     {
       quote: "The simulation capabilities alone are worth 10x the price.",
-      author: "Michael Johnson",
-      title: "CTO",
-      company: "DeFi Platform"
+      author: "Andy Lee",
+      title: "CoFounder",
+      company: "Wilder World"
     }
   ];
 
