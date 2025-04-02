@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { X, Check, ArrowRight, ArrowLeft } from 'lucide-react';
 
 const WhySection: React.FC = () => {
   return (
@@ -7,14 +8,13 @@ const WhySection: React.FC = () => {
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Why Tokenise?</h2>
         
-        <div className="bg-white rounded-lg border border-gray-200 p-8 mb-16">
+        <div className="bg-white rounded-lg border border-gray-200 p-8 mb-16 shadow-sm">
           <div className="flex flex-col space-y-8">
             <div className="flex justify-between items-center">
               <h3 className="text-xl font-semibold">Built by founders, for founders.</h3>
-              <div className="flex space-x-2">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="#6b7280" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+              <div className="flex space-x-2 text-tokenise-purple">
+                <ArrowLeft className="h-5 w-5" />
+                <ArrowRight className="h-5 w-5" />
               </div>
             </div>
             
@@ -23,39 +23,42 @@ const WhySection: React.FC = () => {
             </div>
             
             <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <div className="text-red-500 flex-shrink-0 mt-1">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+              <div className="flex items-center space-x-3">
+                <div className="text-red-500 flex-shrink-0">
+                  <X className="h-5 w-5" />
                 </div>
                 <div className="flex-1">
                   <span className="text-gray-700">Outdated spreadsheets →</span>
-                  <span className="ml-2 text-green-600 font-medium">✓ Institutional models</span>
+                  <span className="ml-2 text-green-600 font-medium flex items-center">
+                    <Check className="h-5 w-5 mr-1 text-green-600" />
+                    Institutional models
+                  </span>
                 </div>
               </div>
               
-              <div className="flex items-start space-x-3">
-                <div className="text-red-500 flex-shrink-0 mt-1">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+              <div className="flex items-center space-x-3">
+                <div className="text-red-500 flex-shrink-0">
+                  <X className="h-5 w-5" />
                 </div>
                 <div className="flex-1">
                   <span className="text-gray-700">Weeks of revisions →</span>
-                  <span className="ml-2 text-green-600 font-medium">✓ Launch-ready in hours</span>
+                  <span className="ml-2 text-green-600 font-medium flex items-center">
+                    <Check className="h-5 w-5 mr-1 text-green-600" />
+                    Launch-ready in hours
+                  </span>
                 </div>
               </div>
               
-              <div className="flex items-start space-x-3">
-                <div className="text-red-500 flex-shrink-0 mt-1">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                  </svg>
+              <div className="flex items-center space-x-3">
+                <div className="text-red-500 flex-shrink-0">
+                  <X className="h-5 w-5" />
                 </div>
                 <div className="flex-1">
                   <span className="text-gray-700">Price collapse →</span>
-                  <span className="ml-2 text-green-600 font-medium">✓ Simulated long-term sustainability</span>
+                  <span className="ml-2 text-green-600 font-medium flex items-center">
+                    <Check className="h-5 w-5 mr-1 text-green-600" />
+                    Simulated long-term sustainability
+                  </span>
                 </div>
               </div>
             </div>
