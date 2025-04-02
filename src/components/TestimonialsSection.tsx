@@ -36,15 +36,15 @@ const TestimonialsSection: React.FC = () => {
   const testimonials: Testimonial[] = [
     {
       quote: "Tokenise helped us model emissions that would've taken weeks — and saved our launch.",
-      author: "Alex Chen",
+      author: "Jay Pearce",
       title: "Founder",
-      company: "TechToken"
+      company: "Prime Mates Club"
     },
     {
       quote: "We've cut our token due diligence time in half while improving accuracy.",
-      author: "Sarah Williams",
-      title: "Partner",
-      company: "Blockchain Ventures"
+      author: "Charlie Husats",
+      title: "CoFounder",
+      company: "Bitlayer"
     },
     {
       quote: "The simulation capabilities alone are worth 10x the price.",
