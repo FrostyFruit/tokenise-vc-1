@@ -56,7 +56,7 @@ const TestimonialsSection: React.FC = () => {
 
   const partners = [
     { name: "Digital Assets Oasis", image: "/lovable-uploads/8ecaabfd-736a-49f2-a40d-1b4174b3b2d1.png" },
-    { name: "TechFund", image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=300&h=200&fit=crop&auto=format" },
+    { name: "Bitlayer", image: "/lovable-uploads/5dd985cb-c1c0-400d-8df4-eb5be47836c9.png" },
     { name: "BlockVentures", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=300&h=200&fit=crop&auto=format" },
     { name: "CryptoAlliance", image: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=300&h=200&fit=crop&auto=format" },
   ];
