@@ -40,7 +40,7 @@ const VideoSection: React.FC = () => {
               </div>
             )}
             <iframe 
-              src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+              src="https://www.youtube.com/embed/ExGz_S6rPmY" 
               title="Tokenise Introduction" 
               className={`w-full h-full ${videoLoaded ? 'opacity-100' : 'opacity-0'}`}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
