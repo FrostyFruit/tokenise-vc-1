@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
       </div>
 
       <div className="hidden md:flex items-center space-x-8">
-        <Link to="/features" className="font-medium text-black">Features</Link>
-        <Link to="/enterprise" className="font-medium text-black">Enterprise</Link>
+        <a href="https://www.tokenise.tech/#feature-section" className="font-medium text-black" target="_blank" rel="noopener noreferrer">Features</a>
+        <a href="https://www.tokenise.tech/#feature-section" className="font-medium text-black" target="_blank" rel="noopener noreferrer">Enterprise</a>
         <Link to="/resources" className="font-medium text-black">Resources</Link>
       </div>
 
