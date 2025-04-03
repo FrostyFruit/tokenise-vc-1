@@ -14,7 +14,7 @@ const CalendlySection: React.FC = () => {
           <div className="aspect-[4/3] md:aspect-[16/9] w-full">
             {/* Calendly inline widget */}
             <iframe
-              src="https://calendly.com/d/mrf-3jk-v56/15-minute-intro-call"
+              src="https://calendly.com/daniel-tokenise/30min"
               title="Calendly Scheduling"
               className="w-full h-full border-0"
             ></iframe>

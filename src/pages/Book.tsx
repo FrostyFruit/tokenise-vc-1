@@ -17,7 +17,7 @@ const Book = () => {
             <div className="bg-white rounded-lg border border-gray-200 p-4 shadow-sm">
               <div className="aspect-auto min-h-[800px]">
                 <iframe
-                  src="https://calendly.com/d/mrf-3jk-v56/15-minute-intro-call"
+                  src="https://calendly.com/daniel-tokenise/30min"
                   width="100%"
                   height="100%"
                   className="w-full h-full min-h-[800px]"
