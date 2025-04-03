@@ -28,10 +28,10 @@ const Footer: React.FC = () => {
           <div>
             <h3 className="font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
-              <li><Link to="/about" className="text-sm text-gray-600 hover:text-gray-900">About</Link></li>
-              <li><Link to="/careers" className="text-sm text-gray-600 hover:text-gray-900">Careers</Link></li>
-              <li><Link to="/contact" className="text-sm text-gray-600 hover:text-gray-900">Contact</Link></li>
-              <li><Link to="/legal" className="text-sm text-gray-600 hover:text-gray-900">Legal</Link></li>
+              <li><a href="https://www.tokenise.tech/" className="text-sm text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">About</a></li>
+              <li><a href="https://www.tokenise.tech/" className="text-sm text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">Careers</a></li>
+              <li><a href="https://www.tokenise.tech/" className="text-sm text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">Contact</a></li>
+              <li><a href="https://www.tokenise.tech/" className="text-sm text-gray-600 hover:text-gray-900" target="_blank" rel="noopener noreferrer">Legal</a></li>
             </ul>
           </div>
         </div>
