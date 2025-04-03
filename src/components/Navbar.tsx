@@ -19,7 +19,7 @@ const Navbar: React.FC = () => {
       <div className="hidden md:flex items-center space-x-8">
         <a href="https://www.tokenise.tech/#feature-section" className="font-medium text-black" target="_blank" rel="noopener noreferrer">Features</a>
         <a href="https://www.tokenise.tech/#feature-section" className="font-medium text-black" target="_blank" rel="noopener noreferrer">Enterprise</a>
-        <Link to="/resources" className="font-medium text-black">Resources</Link>
+        <a href="https://www.tokenise.tech/resources" className="font-medium text-black" target="_blank" rel="noopener noreferrer">Resources</a>
       </div>
 
       <Button asChild className="bg-white hover:bg-gray-100 text-tokenise-purple rounded-full px-6">
