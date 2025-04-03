@@ -66,21 +66,17 @@ const TestimonialsSection: React.FC = () => {
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-center mb-12">Trusted by Industry Leaders</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 mb-16">
           {partners.map((partner, index) => (
-            <div key={index} className="bg-gray-50 rounded-lg overflow-hidden shadow-sm border border-gray-200">
-              <div className="h-32 relative">
-                <AspectRatio ratio={16/9} className="w-full h-full">
-                  <img 
-                    src={partner.image} 
-                    alt={`${partner.name} logo`} 
-                    className="w-full h-full object-contain p-4"
-                  />
-                </AspectRatio>
+            <div key={index} className="flex flex-col items-center">
+              <div className="w-24 h-24 md:w-28 md:h-28 bg-white rounded-md overflow-hidden flex items-center justify-center p-2">
+                <img 
+                  src={partner.image} 
+                  alt={`${partner.name} logo`} 
+                  className="max-w-full max-h-full object-contain"
+                />
               </div>
-              <div className="py-4 px-6 text-center">
-                <p className="font-medium text-tokenise-deep-blue">{partner.name}</p>
-              </div>
+              <p className="mt-2 text-sm font-medium text-tokenise-deep-blue text-center">{partner.name}</p>
             </div>
           ))}
         </div>
