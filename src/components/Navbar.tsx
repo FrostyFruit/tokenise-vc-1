@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       </div>
 
       <Button asChild className="bg-white hover:bg-gray-100 text-tokenise-purple rounded-full px-6">
-        <Link to="/book">Launch</Link>
+        <a href="https://app.tokenise.tech/" target="_blank" rel="noopener noreferrer">Launch</a>
       </Button>
     </nav>
   );

@@ -69,9 +69,9 @@ const VideoSection: React.FC = () => {
             asChild
             style={{ animationDelay: "0.7s" }}
           >
-            <Link to="https://app.tokenise.io" target="_blank" rel="noopener noreferrer">
+            <a href="https://app.tokenise.tech/" target="_blank" rel="noopener noreferrer">
               Launch Tokenise
-            </Link>
+            </a>
           </Button>
         </div>
       </div>
