@@ -7,13 +7,6 @@ import { Play } from 'lucide-react';
 const VideoSection: React.FC = () => {
   const [videoLoaded, setVideoLoaded] = useState(false);
 
-  const handleScrollToBooking = () => {
-    const bookingSection = document.getElementById('booking-section');
-    if (bookingSection) {
-      bookingSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section className="py-16 md:py-24 px-6 md:px-12 flex flex-col items-center relative overflow-hidden">
       <div className="absolute inset-0 bg-grid-pattern opacity-30"></div>
