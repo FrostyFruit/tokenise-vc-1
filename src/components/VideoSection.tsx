@@ -23,7 +23,7 @@ const VideoSection: React.FC = () => {
           Welcome to Tokenise.
         </h1>
         
-        <p className="text-lg md:text-xl text-tokenise-deep-purple/90 mb-10 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
+        <p className="text-lg md:text-xl text-tokenise-deep-purple/90 mb-10 max-w-2xl mx-auto font-medium animate-fade-in" style={{ animationDelay: "0.2s" }}>
           Build institutional-grade token models that investors recognize instantly
         </p>
         
