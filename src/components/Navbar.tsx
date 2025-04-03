@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
       <div className="flex items-center">
         <Link to="/" className="flex items-center">
           <img 
-            src="/public/lovable-uploads/62e2f33c-ee03-40dd-b7da-02ba0d889a63.png" 
+            src="/lovable-uploads/b217c799-83b1-433b-9bd7-d36d19a65a07.png" 
             alt="Tokenise Logo" 
             className="h-10 md:h-12"
           />
