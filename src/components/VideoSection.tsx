@@ -24,7 +24,7 @@ const VideoSection: React.FC = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-tokenise-deep-purple/90 mb-10 max-w-2xl mx-auto font-medium animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          Build institutional-grade token models that investors recognize instantly
+          Separate red flags from opportunities, instantly
         </p>
         
         <div className="bg-white/20 backdrop-blur-sm rounded-lg p-4 max-w-4xl w-full shadow-lg mb-12 animate-fade-in" style={{ animationDelay: "0.3s" }}>
